@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom media query styles */
+@media (min-width: 810px) and (max-width: 1399px) {
+    #Navbar {
+        left: calc(50% - 370px);
+        /* 370px is half of 740px */
+        top: 15px;
+        width: 740px;
+    }
+}
+@media (max-width: 809px) {
+    #Navbar {
+        left: unset;
+        position: relative;
+        top: unset;
+        width: 400px;
+    }
+
+    /* Adjusting width and justification for other elements */
+    #in-Nav,
+    #navbar,
+    #center,
+    #content {
+        width: auto;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 810px) {
+    #Navbar {
+        left: calc(50% - 370px);
+        width:740px;
+    }
+}

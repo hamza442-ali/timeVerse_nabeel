@@ -1,0 +1,247 @@
+.sectionFeature {
+  z-index: 3;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 1665px;
+}
+
+.head-div {
+  flex: none;
+  height: auto;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+}
+.heading {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  color: rgb(235, 235, 235);
+  font-size: 42px;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  line-height: 52px;
+  text-align: center;
+  -webkit-text-stroke-width: initial;
+  -webkit-text-stroke-color: initial;
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  display: inline-block;
+  background-clip: text;
+}
+.heading-span {
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(235, 235, 235);
+  font-size: 42px;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  line-height: 52px;
+  text-align: center;
+  -webkit-text-stroke-width: initial;
+  -webkit-text-stroke-color: initial;
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  display: inline-block;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: max(0em, calc((1.3em - 52px) / 2));
+  margin: min(0em, calc((1.3em - 52px) / -2));
+  background-image: linear-gradient(
+    129deg,
+    rgba(235, 235, 235, 0.94) 0%,
+    rgba(255, 255, 255, 0.27) 91.1044%
+  );
+}
+.feature-des-div {
+  height: auto;
+  opacity: 0.5;
+  position: relative;
+  width: 570px;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+}
+.feature-p {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(179, 179, 179);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 24.9px;
+  text-align: center;
+}
+.feature-card-div {
+  display: grid;
+  gap: 30px;
+  grid-auto-rows: minmax(0, 1fr);
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  height: 935px;
+  width: 740px;
+}
+.breaker-feature {
+  box-sizing: border-box;
+  flex: none;
+  height: 6rem; /*110px*/
+  overflow: hidden;
+  position: relative;
+  width: 189px;
+}
+.feature-analytic-sec {
+  align-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-wrap: nowrap;
+  height: min-content;
+  justify-content: flex-start;
+  max-width: 1300px;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  flex-direction: column;
+  gap: 57px;
+}
+.f-fig {
+  margin: 0;
+  aspect-ratio: 1.7197802197802199 / 1;
+  flex: none;
+  height: var(--framer-aspect-ratio-supported, 428px);
+  overflow: visible;
+  position: relative;
+  width: 740px;
+}
+.f-fig-div {
+  position: absolute;
+  border-radius: inherit;
+  inset: 0px;
+}
+.f-fig-img {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-position: center center;
+  object-fit: cover;
+  image-rendering: auto;
+  z-index: 5;
+}
+
+.analysis-insight {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 740px;
+}
+.analytic-head-div {
+  box-sizing: border-box;
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre;
+  width: auto;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: none;
+}
+.analytic-heading {
+  white-space: pre;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Geologica", "Geologica Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: calc(40.05px * 1);
+  letter-spacing: -0.9px;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 40px;
+  text-align: start;
+  -webkit-text-stroke-width: initial;
+  -webkit-text-stroke-color: initial;
+}
+.analytic-list {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 2px;
+  height: min-content;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  overflow: visible;
+  padding: 2px 0 0;
+  position: relative;
+  width: 100%;
+}
+@media (max-width: 809px) {
+  .breakerF {
+    height: 73px;
+  }
+  .feature-des-div {
+    width: 340px;
+  }
+  .feature-card-div {
+    grid-auto-rows: min-content;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-template-rows: repeat(6, min-content);
+    height: auto;
+    width: 340px;
+  }
+  .feature-analytic-sec {
+    flex-direction: column;
+    gap: 41px;
+  }
+  .f-fig {
+    height: var(--framer-aspect-ratio-supported, 198px);
+    width: 340px;
+  }
+  .analysis-insight {
+    width: 340px;
+  }
+}

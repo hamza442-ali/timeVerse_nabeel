@@ -1,0 +1,12 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+@media (max-width: 809px) {
+  #sub_main {
+    padding: 15px 0 0;
+  }
+}

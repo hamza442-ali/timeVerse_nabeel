@@ -1,0 +1,105 @@
+.list-item {
+  list-style: none;
+  box-sizing: border-box;
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 7px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 20px 0 1px;
+  position: relative;
+  width: 100%;
+}
+.item-title-div {
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre;
+  width: auto;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: none;
+}
+.item-title-h {
+  white-space: pre;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter-Medium", "Inter", "Inter Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: calc(17.72px * 1); /* Assuming --framer-font-size-scale is 1 */
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 29px;
+  text-align: start;
+  -webkit-text-stroke-width: initial;
+  -webkit-text-stroke-color: initial;
+}
+.item-des-div {
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre-wrap;
+  width: 100%;
+  word-break: break-word;
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  transform: none;
+}
+.item-des-p {
+  list-style: none;
+  white-space: pre-wrap;
+  word-break: break-word;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(107, 114, 128);
+  font-size: calc(15.75px * 1); /* Assuming --framer-font-size-scale is 1 */
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 24px;
+  text-align: start;
+  -webkit-text-stroke-width: initial;
+  -webkit-text-stroke-color: initial;
+}
+.list-break {
+  align-content: center;
+  align-items: center;
+  background: radial-gradient(
+    50% 10.8% at 47.199999999999996% 50%,
+    #ffea4d 0%,
+    rgb(11, 14, 15) 100%
+  );
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 21px;
+  justify-content: center;
+  opacity: 0.61;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}

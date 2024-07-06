@@ -1,0 +1,110 @@
+.st-break {
+  flex: none;
+  overflow: hidden;
+  position: relative;
+  width: 185px;
+  height: 40px;
+}
+.slider-head {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: auto;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 82px 40px 90px;
+}
+.slider-head-div {
+  flex: none;
+  height: auto;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  /* flex: none;
+  height: auto;
+  pointer-events: auto;
+  position: relative;
+  user-select: none;
+  white-space: pre;
+  width: 100%;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none; */
+}
+.slider-heading {
+  /* pointer-events: auto;
+  user-select: none;
+  white-space: pre;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(235, 235, 235);
+  font-size: 42px;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 52px;
+  text-align: center;
+  -webkit-text-stroke-width: initial;
+  -webkit-text-stroke-color: initial; */
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  color: rgb(235, 235, 235);
+  font-size: 42px;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  line-height: 52px;
+  text-align: center;
+  -webkit-text-stroke-width: initial;
+  -webkit-text-stroke-color: initial;
+  box-sizing: border-box;
+  -webkit-font-smoothing: inherit;
+  display: inline-block;
+  background-clip: text;
+}
+.heading-span {
+  display: inline-block;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: max(0em, calc(calc(1.3em - 52px) / 2));
+  margin: min(0em, calc(calc(1.3em - 52px) / -2));
+  background-image: linear-gradient(
+    129deg,
+    rgba(235, 235, 235, 0.94) 0%,
+    rgba(255, 255, 255, 0.27) 91.1044%
+  );
+}
+.break-ref1 {
+  flex: none;
+  height: 32px;
+  overflow: hidden;
+  position: relative;
+  width: 189px;
+}
+@media (max-width: 809px) {
+  .slider-head {
+    padding: 0 40px 150px;
+  }
+  .slider-head-div {
+    white-space: pre-wrap;
+    width: 340px;
+    word-break: break-word;
+    word-wrap: break-word;
+  }
+}
