@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div
       id="main "
-      className="m-0 p-0 box-border font-sans z-0 "
+      className="m-0 p-0 box-border font-sans  "
       style={{
         backgroundColor: "#0b0e0f",
       }}
@@ -29,15 +29,15 @@ const App = () => {
           padding: "100px 0 0",
 
           backgroundColor: "#0b0e0f",
-          width: "auto",
+          // width: "auto",
         }}
       >
+        <BackgroundImage />
         <Navbar />
-
         <Overview />
         <Features />
         <References />
-        <BackgroundImage />
+       
       </div>
     </div>
   );

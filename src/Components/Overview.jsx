@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./overview.css";
 import pic from '../Components/assets/main_pic.png';
@@ -6,7 +7,7 @@ import power from '../Components/assets/power-fig.png';
 function Overview() {
   return (
     <>
-      <div className="overview-container">
+      <div className=" flex flex-colum w-auto ">
         <section className="content-container">
           <div className="inner-left-section">
             <div className="left-head">
@@ -15,8 +16,8 @@ function Overview() {
           </div>
           <div className="head-2">
             <h1 className="heading">
-              Unmatched<span className="space"> </span>scale and
-              <span className="space"> </span>security
+              Unmatched scale and
+              <span> </span>security
             </h1>
           </div>
           <div className="spacer"></div>
@@ -52,8 +53,8 @@ function Overview() {
             <div className="image-wrapper">
               <img
                 decoding="async"
-                sizes="301px"
-                srcSet={`${pic}?scale-down-to=512 512w, ${pic} 960w`}
+                // sizes="301px"
+                // srcSet={`${pic}?scale-down-to=512 512w, ${pic} 960w`}
                 src={pic}
                 alt="An abstract image that represents scalability"
                 className="section-image"
